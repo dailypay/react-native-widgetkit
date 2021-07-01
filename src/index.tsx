@@ -6,7 +6,13 @@ const {
   reloadTimelines: reloadTimelinesNative,
   getItem: getItemNative,
   setItem: setItemNative,
+  getCurrentConfigurations: getCurrentConfigurationsNative,
 } = Widgetkit || {};
+
+type WidgetInfo = {
+  kind: string;
+  family: 'small' | 'medium' | 'large';
+};
 
 /**
  * Reloads the timelines for all widgets of a particular kind.
@@ -49,3 +55,12 @@ export const setItem = (setItemNative ||
   (() => {
     return Promise.resolve();
   })) as (key: string, value: string, appGroup: string) => Promise<void>;
+
+/**
+ * Retrieves information about user-configured widgets.
+ *
+ */
+export const getCurrentConfigurations = (getCurrentConfigurationsNative ||
+  (() => {
+    return Promise.resolve([]);
+  })) as () => Promise<WidgetInfo[]>;

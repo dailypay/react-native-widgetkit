@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-  <strong>React-Native Library for the iOS 🍏 <a href="https://developer.apple.com/documentation/widgetkit/">WidgetKit framework<a></strong> 
+  <strong>React-Native Library for the iOS 🍏 <a href="https://developer.apple.com/documentation/widgetkit/">WidgetKit framework<a></strong>
 </div>
 <br>
 <div align="center">
@@ -69,6 +69,11 @@ Writes Key-Value to <a href="https://developer.apple.com/documentation/foundatio
 #### `WidgetKit.getItem(String key, String appGroup)`
 
 Reads Value from <a href="https://developer.apple.com/documentation/foundation/userdefaults">UserDefaults</a> database.
+
+---
+#### `WidgetKit.getCurrentConfigurations()`
+
+Retrieves information about user-configured widgets.
 
 ---
 
