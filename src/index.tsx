@@ -11,7 +11,7 @@ const {
 
 type WidgetInfo = {
   kind: string;
-  family: 'small' | 'medium' | 'large';
+  family: 'systemSmall' | 'systemMedium' | 'systemLarge';
 };
 
 /**
