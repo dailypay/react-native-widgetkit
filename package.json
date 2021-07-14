@@ -1,5 +1,5 @@
 {
-  "name": "react-native-widgetkit",
+  "name": "@dailypay/react-native-widgetkit",
   "version": "1.0.9",
   "description": "React-Native Library which exposes useful methods of iOS WidgetKit",
   "main": "lib/commonjs/index",
@@ -34,13 +34,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/fasky-software/react-native-widgetkit",
+  "repository": "https://github.com/dailypay/react-native-widgetkit",
   "author": "Thomas Leiter <thomas.leiter@outlook.at> (https://github.com/tomLadder)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fasky-software/react-native-widgetkit/issues"
+    "url": "https://github.com/dailypay/react-native-widgetkit/issues"
   },
-  "homepage": "https://github.com/fasky-software/react-native-widgetkit#readme",
+  "homepage": "https://github.com/dailypay/react-native-widgetkit#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.16.2",
