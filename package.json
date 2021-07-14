@@ -1,6 +1,6 @@
 {
   "name": "@dailypay/react-native-widgetkit",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "React-Native Library which exposes useful methods of iOS WidgetKit",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
